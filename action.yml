@@ -4,10 +4,10 @@ author: 'Robin Genz <mail@robingenz.dev>'
 
 # Define your inputs here.
 inputs:
-  siteUrl:
+  siteUrl: 'bjjroadmaps.com'
     description: 'The domain or site URL of the site to be indexed.'
     required: true
-  gcpServiceAccountKey:
+  gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
     description: 'The GCP service account key in JSON format.'
     required: true
 
